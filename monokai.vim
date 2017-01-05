@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 
 set t_Co=256
-let g:colors_name = "monokai"
+let g:colors_name = "Monokai_self"
 
 hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
@@ -45,7 +45,7 @@ hi WarningMsg ctermfg=231 ctermbg=197 cterm=NONE guifg=#f8f8f0 guibg=#f92672 gui
 hi Float ctermfg=141 ctermbg=NONE cterm=NONE guifg=#ae81ff guibg=NONE gui=NONE
 hi Function ctermfg=81 ctermbg=NONE cterm=NONE guifg=#a6e22e guibg=NONE gui=NONE
 " 定义的变量
-hi Identifier ctermfg=158 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
+hi Identifier ctermfg=155 ctermbg=NONE cterm=NONE guifg=#66d9ef guibg=NONE gui=italic
 hi Keyword ctermfg=197 ctermbg=NONE cterm=NONE guifg=#f92672 guibg=NONE gui=NONE
 hi Label ctermfg=186 ctermbg=NONE cterm=NONE guifg=#e6db74 guibg=NONE gui=NONE
 hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#31322c gui=NONE
